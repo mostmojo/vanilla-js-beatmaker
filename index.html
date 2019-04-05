@@ -9,20 +9,67 @@
       rel="stylesheet"
     />
     <link
+      rel="icon"
+      href="https://res.cloudinary.com/mostmojo/image/upload/v1554487214/tunetap.png"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style.css" />
+    <!-- Metadata -->
+    <meta
+      name="description"
+      content="Tunetap. Make tunes with a few taps. Made with <3 by @mostmojo"
+    />
+    <meta
+      property="og:title"
+      content="Tunetap. Make tunes with a few taps. Made with <3 by @mostmojo"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://mostmojo.github.io/vanilla-js-beatmaker/"
+    />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/mostmojo/image/upload/v1554487214/tunetap.png"
+    />
+    <meta
+      property="og:description"
+      content="Tunetap. Make tunes with a few taps. Made with <3 by @mostmojo"
+    />
+    <meta
+      property="og:site_name"
+      content="Tunetap. Make tunes with a few taps. Made with <3 by @mostmojo"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="Tunetap" />
+    <meta name="author" content="@mostmojo" />
+    <meta
+      name="twitter:title"
+      content="Tunetap. Make tunes with a few taps. Made with <3 by @mostmojo"
+    />
+    <meta
+      name="twitter:description"
+      content="Tunetap. Make tunes with a few taps. Made with <3 by @mostmojo"
+    />
+    <meta name="twitter:creator" content="Tunetap" />
+    <meta
+      name="twitter:image:src"
+      content="https://res.cloudinary.com/mostmojo/image/upload/v1554487214/tunetap.png"
+    />
     <title>Tunetap</title>
   </head>
   <body>
     <div class="app">
       <header>
-        <h1>👉 Tunetap 👈</h1>
-        <p>Make tunes with a few taps! 🎶</p>
-        <p class="mostmojo">
+        <h1 data-aos="fade-right">👉 Tunetap 👈</h1>
+        <p data-aos="fade-right">Make tunes with a few taps 🎶</p>
+        <p class="mostmojo" data-aos="fade-left">
           Made with <i class="fas fa-heart"></i> by @mostmojo
         </p>
       </header>
@@ -49,5 +96,11 @@
       </div>
     </div>
     <script src="./index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200
+      });
+    </script>
   </body>
 </html>
