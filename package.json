@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mostmojo/vanilla-js-beatmaker/issues"
   },
-  "homepage": "https://github.com/mostmojo/vanilla-js-beatmaker#readme"
+  "homepage": "https://github.com/mostmojo/vanilla-js-beatmaker#readme",
+  "dependencies": {
+    "animate.css": "^3.7.0"
+  }
 }
